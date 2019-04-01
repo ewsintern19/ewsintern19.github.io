@@ -4,16 +4,21 @@
 	width:100%;
 }
 
-body
-{
-	margin:auto;
-}
-
 .social-part .fa{
     padding-right:20px;
 }
 ul li a{
     margin-right: 20px;
+}
+
+.login-part
+{
+	float:right;
+}
+
+.login-part-2
+{
+	float:right;
 }
 
 .fa-facebook
@@ -78,7 +83,6 @@ p
 	border-collapse: collapse;
 	margin:0;
 	padding:0;
-
 }
 
 .footerr
