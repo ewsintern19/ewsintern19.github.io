@@ -1,0 +1,210 @@
+<html lang="en">
+<head>
+  <title>Sign Up</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../images/fav.png" type="image/png" sizes="16x16">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
+  <link rel = "stylesheet" href = "../css/style.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+$('.navbar-light .dmenu').hover(function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+    }, function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
+    });
+});
+</script>
+<script type="text/javascript" src="../js/scroll.js"></script>
+
+  <body>
+  <div id = "#home"></div>
+	<!-- Navbar -->
+    <nav class="navbar navbar-expand-sm  navbar-light bg-light">
+  <div class="navbar-header">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <a class="pull-left" href="#home"><img src = "../images/logo-03.png" style = "padding-right:40px;"></a>
+  </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">About</a>
+            </li>
+            <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#courses" id="navbardrop" data-toggle="dropdown">
+              Courses
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="../pages/hr-recruitment.html">HR Recruitment</a>
+              <a class="dropdown-item" href="../pages/hr-onboarding.html">HR Onboarding</a>
+              <a class="dropdown-item" href="../pages/payroll-processing.html">Payroll Processing</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/student-testimonials.html">Student Testimonials</a>
+          </li>
+           <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              More
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="#">Downloads</a>
+              <a class="dropdown-item" href="#team">Our Core Team</a>
+            </div>
+          </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="../pages/sign-up.html"><i class="fa fa-user-circle-o" style="font-size:36px"></i></a></li>
+      <li><a href="../pages/login.html"><i class="fa fa-sign-in" style="font-size:36px"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--END Navbar -->
+	  <div class = "spacer">
+	  &nbsp;
+	  </div>
+<!-- Marquee Text -->	  
+<script type="text/javascript" src="../js/rotate.js"></script>
+<div class="marquee-bar">
+	<center>               
+		<h2 class="promo-text-v2 color-light cd-headline letters type " style="font-size:16px;">
+		Do You Know :&nbsp;
+			<span class="cd-words-wrapper">
+                <span
+     class="txt-rotate"
+     data-period="2000"
+     data-rotate='[ "Dynamic Rolling text appears here!" ]'></span>
+			</span>
+		</h2>
+	</center>
+</div>
+<br><br><br>
+<!-- Content -->
+
+<section class="login-block">
+    <div class="container">
+	<div class="row">
+		<div class="col-md-4 login-sec">
+		    <h2 class="text-center">Sign Up Here</h2>
+			<br>
+		    <form class="login-form">
+	<div class="form-group">
+    <label for="exampleInputEmail1" class="text-uppercase">Full Name</label>
+    <input type="text" class="form-control" placeholder="Enter your Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="text-uppercase">Username</label>
+    <input type="text" class="form-control" placeholder="Enter your username">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1" class="text-uppercase">Password</label>
+    <input type="password" class="form-control" placeholder="Enter your Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1" class="text-uppercase">Phone</label>
+    <input type="text" class="form-control" placeholder="+91 ">
+  </div>
+  
+  
+    <div class="form-check">
+    <button type="submit" class="btn btn-login float-right">Submit</button>
+  </div>
+  
+</form>
+		</div>
+		<div class="col-md-8 banner-sec">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                 <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+            <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="https://static.pexels.com/photos/33972/pexels-photo.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+	  <!--
+        <div class="banner-text">
+            <h2>This is Heaven</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        </div>	
+		-->
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://images.pexels.com/photos/7097/people-coffee-tea-meeting.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+	  <!--
+        <div class="banner-text">
+            <h2>This is Heaven</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        </div>	
+		-->
+    </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+	  <!--
+        <div class="banner-text">
+            <h2>This is Heaven</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        </div>	
+		-->
+    </div>
+  </div>
+            </div>	   
+		    
+		</div>
+	</div>
+</div>
+</section>
+
+<br><br><br>
+<!--Footer -->
+<div class = "footer">
+	<div class = "left-footer">
+		<br>
+				<center>
+					<p style="color:#fff;">
+					 &copy; EduWorld-Success 
+				</p>
+				</center>
+	</div>
+	<div class="middle-footer">
+		<center>
+		<br>	
+		<p style="color:#fff;">
+			Made with <span style="font-size:100%;color:red;">&hearts;</span> by Web Design <a href = "#team" style = "color:dodgerblue;">Team</a>
+		</p>
+	</center>
+	</div>
+	<div class = "right-footer">
+        <div>
+            	<br>
+            	<center>
+                <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook fa-3x social"></i></a>
+	            <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter fa-3x social"></i></a>
+	            <a href="https://instagram.com/"><i id="social-ig" class="fa fa-instagram fa-3x social"></i></a>
+	            </center>        
+		</div>
+	</div>
+</div>
+<div class="footerr">
+</div>
+
+
+</body>
+</html>
